@@ -68,7 +68,8 @@ app.listen(3000, () => {
 
 // default home page
 app.get("/", (req, res) => {
-    res.status(200).send("Service Provider Home Page");
+    //res.status(200).send("Service Provider Home Page");
+    res.sendFile("index.html");
 });
 
 // redirect user to IDP login
