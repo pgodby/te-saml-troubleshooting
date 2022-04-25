@@ -2,7 +2,6 @@
 If you are unfamiliar with Docker, the following tips will help you work with the containers during the lab exercises.
 
 ## Tips
----
 Use the following command to restart the specified container:
 ```
 docker restart <container_name>

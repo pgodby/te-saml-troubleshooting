@@ -5,8 +5,8 @@ In this lab exercise, you will deploy a set of Docker containers that are requir
 
 | Container | Description |
 | --- | --- |
-| identity_provider | A [SimpleSAMLphp](https://simplesamlphp.org/) instance that will be used to authenticate users and provide identity services. |
-| service_provider | A barebones Node.js server application to simulate the role of a service provider using browser redirects. |
+| identity-provider | A [SimpleSAMLphp](https://simplesamlphp.org/) instance that will be used to authenticate users and provide identity services. |
+| service-provider | A barebones Node.js server application to simulate the role of a service provider using browser redirects. |
 
 ## Prerequisites
 To complete this exercise, you must have the following software installed:
@@ -17,11 +17,11 @@ To complete this exercise, you must have the following software installed:
 
 1. In a terminal window, enter the following commands to build and start the Docker containers. Leave this window open.
     ```
-    cd /te-apm-troubleshooting/base
+    cd /te-saml-troubleshooting
     docker-compose up --build
     ```
 1. To stop the Docker containers, return to this terminal window and press: **CTRL-C**
 1. Review the [Help](Help.md) section for tips on working with the Docker containers.
 
 ---
-**Labs Exercises:** 1 | [2](Lab2.md) | [Help](Help.md)
+**Lab Exercises:** [1](Lab1.md) | [2](Lab2.md) | [Help](Help.md)

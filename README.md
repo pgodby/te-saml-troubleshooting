@@ -1,7 +1,7 @@
 # SAML Troubleshooting
 
 ## Overview
-This workshop will demonstrate how to troubleshoot issues that might be encountered while configuring SAML between an identity provider and a service provider. The demo environment is already configured properly. So, the lab exercises will focus on how to use a SAML tracer extension to gather information.
+This workshop will demonstrate how to troubleshoot issues that might occur while configuring SAML between an identity provider and a service provider. The demo environment is already configured properly. So, the lab exercises will focus on how to use a SAML tracer extension to gather information.
 
 ## Prerequisites
 All lab exercises share the following set of requirements:
