@@ -7,10 +7,11 @@ In this lab exercise, you will troubleshoot unknown problems with a SAML configu
 Before you begin, you must first complete all of the previous lab exercises.
 
 ## Lab Exercise 2
-1. Open a private browser window.
-1. Install and enable a SAML Tracer extension.
+1. In a web browser, install and enable a SAML Tracer extension.
     - Chrome: [SAML-tracer](https://chrome.google.com/webstore/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch)
     - Firefox: [SAML-tracer](https://addons.mozilla.org/en-US/firefox/addon/saml-tracer/)
+1. If necessary, configure the extension so that it works in private/incognito mode.
+1. Open a new private/incognito browser window.
 1. Open the SAML Tracer extension. You should see it running in a separate window.
 1. Navigate to the following URL: [http://localhost:3000](http://localhost:3000)
 1. If necessary, clear any data already captured by the tracer.
