@@ -1,7 +1,7 @@
 # Troubleshoot SAML
 
 ## Overview
-In this lab exercise, you will troubleshoot unknown problems with a SAML configuration.
+In this lab exercise, you will troubleshoot unknown problems with a SAML configuration. The demo environment is already configured properly. So, the exercise will focus on how to use a SAML tracer extension to gather information.
 
 ## Prerequisites
 Before you begin, you must first complete all of the previous lab exercises.
@@ -25,6 +25,7 @@ Before you begin, you must first complete all of the previous lab exercises.
     - Click **Export** and save the file to your local machine
     - For option *Select cookie-filter profile*, choose "None"
 1. Can you identify the values for the following items in the SAML Request?
+    - ID
     - Destination
     - AssertionConsumerServiceURL
     - Issuer
@@ -32,8 +33,8 @@ Before you begin, you must first complete all of the previous lab exercises.
     - Destination
     - Issuer
     - X509Certificate
-    - Audience
-    - All returned person attributes
+    - SPNameQualifier
+    - All returned person attributes and values
 
 ---
 **Lab Exercises:** [1](Lab1.md) | [2](Lab2.md) | [Help](Help.md)
