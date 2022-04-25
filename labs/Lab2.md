@@ -25,9 +25,15 @@ Before you begin, you must first complete all of the previous lab exercises.
     - Click **Export** and save the file to your local machine
     - For option *Select cookie-filter profile*, choose "None"
 1. Can you identify the values for the following items in the SAML Request?
-    - one
+    - Destination
+    - AssertionConsumerServiceURL
+    - Issuer
 1. Can you identify the values for the following items in the SAML Response?
-    - one
+    - Destination
+    - Issuer
+    - X509Certificate
+    - Audience
+    - All returned person attributes
 
 ---
 **Lab Exercises:** [1](Lab1.md) | [2](Lab2.md) | [Help](Help.md)
