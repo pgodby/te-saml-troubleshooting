@@ -21,9 +21,12 @@ Before you begin, you must first complete all of the previous lab exercises.
     - *password*: user1pass
 1. A SAML Response will be sent to the service provider. Review this response in the SAML Tracer.
 1. Export the SAML data so that it can be attached to a support request.
-    - Click **Export**
-    - For option *Select cookie-filter profile*, choose "None"
     - Click **Export** and save the file to your local machine
+    - For option *Select cookie-filter profile*, choose "None"
+1. Can you identify the values for the following items in the SAML Request?
+    - one
+1. Can you identify the values for the following items in the SAML Response?
+    - one
 
 ---
 **Lab Exercises:** [1](Lab1.md) | [2](Lab2.md) | [Help](Help.md)
