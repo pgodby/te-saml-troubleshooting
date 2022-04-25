@@ -68,7 +68,6 @@ app.listen(3000, () => {
 
 // default home page
 app.get("/", (req, res) => {
-    //res.status(200).send("Service Provider Home Page");
     res.sendFile(__dirname + "/index.html");
 });
 
@@ -90,7 +89,7 @@ app.post("/login/callback",
     passport.authenticate("samlStrategy"),
     function(req, res) {
         console.log(JSON.stringify(req.user, null, 2));
-        res.status(200).send("Login Callback Success");
+        res.sendFile(__dirname + "/app.html");
     }
 );
 
