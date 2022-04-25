@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+    
+  identity-provider:
+    image: kristophjunge/test-saml-idp
+    container_name: identity-provider
+    restart: always
+    environment:
+     - SIMPLESAMLPHP_SP_ENTITY_ID=te-saml
+     - SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE=http://localhost:3000/login/callback
+    ports:
+      - 8080:8080
+      - 8443:8443
+  
+  service-provider:
+    image: service-provider
+    container_name: service-provider
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    restart: always
+    ports: 
+      - 3000:3000
